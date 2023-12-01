@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="596.0" prefWidth="714.0" style="-fx-background-color: #320000;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplicacioncomida.CarritoController">
+   <children>
+      <Text layoutX="282.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mi Carrito" wrappingWidth="258.41015625">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.6712707182320442" centerY="0.8744075829383886" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <JFXButton fx:id="btCompra" layoutX="326.0" layoutY="536.0" onAction="#comprar" style="-fx-background-color: #ea899a;" text="Comprar" />
+      <TableView fx:id="tablaProductos" layoutX="198.0" layoutY="106.0" prefHeight="397.0" prefWidth="319.0">
+        <columns>
+          <TableColumn fx:id="tablaNombreProducto" prefWidth="158.0" text="Producto" />
+          <TableColumn fx:id="tablaPrecioProducto" prefWidth="160.0" text="Precio" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

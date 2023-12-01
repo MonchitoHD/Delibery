@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="754.0" prefWidth="680.0" style="-fx-background-color: #320000;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplicacioncomida.DominosController">
+   <children>
+      <ImageView fitHeight="106.0" fitWidth="279.0" layoutX="246.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Dominos-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="40.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TexasBBQCrispyDelivery_TS220921_0_ES.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="titulo1" layoutX="69.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Texas BBQ Crispy ">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text fx:id="precio1" layoutX="104.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 $">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <JFXButton fx:id="btAñadir1" layoutX="89.0" layoutY="360.0" onAction="#añadir" style="-fx-background-color: #ea899a;" text="Añadir" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="265.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PulledPorkAlabama_2M230831_0_ES.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="titulo2" layoutX="293.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pulled Pork Alabama">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text fx:id="precio2" layoutX="329.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10 $">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <JFXButton fx:id="btAñadir2" layoutX="315.0" layoutY="360.0" onAction="#añadir" style="-fx-background-color: #ea899a;" text="Añadir" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="444.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="478.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@HawaianaCrispyDelivery_WS210914_0_ES.png" />
+         </image></ImageView>
+      <Text fx:id="titulo3" layoutX="506.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hawaiana Crispy">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text fx:id="precio3" layoutX="542.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13 $">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <JFXButton fx:id="btAñadir3" layoutX="528.0" layoutY="360.0" onAction="#añadir" style="-fx-background-color: #ea899a;" text="Añadir" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="41.0" layoutY="408.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BuffaloChickenDelivery_UH220921_0_ES.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="titulo4" layoutX="75.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buffalo Chicken">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text fx:id="precio4" layoutX="103.0" layoutY="618.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15 $">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <JFXButton fx:id="btAñadir4" layoutX="89.0" layoutY="645.0" onAction="#añadir" style="-fx-background-color: #ea899a;" text="Añadir" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="265.0" layoutY="408.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BarbacoaDelivery_B2200113_0_ES.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="titulo5" layoutX="316.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barbacoa">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text fx:id="precio5" layoutX="329.0" layoutY="618.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10 $">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <JFXButton fx:id="btAñadir5" layoutX="315.0" layoutY="645.0" onAction="#añadir" style="-fx-background-color: #ea899a;" text="Añadir" />
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="479.0" layoutY="408.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PecadoCarnalDeliver_C2200113_0_ES.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="titulo6" layoutX="516.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pecado Carnal">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Text fx:id="precio6" layoutX="543.0" layoutY="618.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10 $">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.8649289099526066" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <JFXButton fx:id="btAñadir6" layoutX="529.0" layoutY="645.0" onAction="#añadir" style="-fx-background-color: #ea899a;" text="Añadir" />
+   </children>
+</AnchorPane>

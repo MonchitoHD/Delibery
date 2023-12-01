@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="706.0" prefWidth="981.0" style="-fx-background-color: #320000;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplicacioncomida.HelloController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="135.0" prefHeight="485.0" prefWidth="448.0" style="-fx-background-color: #8B0000;">
+         <children>
+            <JFXTextArea fx:id="contraseñaUsuario" layoutX="48.0" layoutY="314.0" prefHeight="35.0" prefWidth="325.0" />
+            <Text layoutX="53.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña ">
+               <fill>
+                  <RadialGradient centerX="1.0" centerY="1.0" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </fill>
+            </Text>
+            <JFXTextArea fx:id="nombreUsuario" layoutX="48.0" layoutY="169.0" prefHeight="32.0" prefWidth="325.0" />
+            <Text layoutX="53.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="179.0">
+               <fill>
+                  <RadialGradient centerX="0.569060773480663" centerY="0.7677725118483412" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </fill>
+            </Text>
+            <Text layoutX="133.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iniciar Sesion" wrappingWidth="197.13671875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <fill>
+                  <RadialGradient centerX="1.0" centerY="0.5924170616113744" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </fill>
+            </Text>
+            <JFXButton fx:id="btIniciarSesion" layoutX="164.0" layoutY="415.0" onAction="#iniciarSesion" prefHeight="32.0" prefWidth="94.0" style="-fx-background-color: #ea899a;" text="Iniciar Sesion" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="376.0" fitWidth="489.0" layoutX="482.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="627.0" layoutY="344.0" text="Bienvenidos " wrappingWidth="179.0">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="779.0" layoutY="343.0" text="a" wrappingWidth="54.0">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="601.0" layoutY="416.0" text="ComidaExpress" wrappingWidth="251.0">
+         <fill>
+            <RadialGradient centerX="1.0" centerY="1.0" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="107.0" fitWidth="163.0" layoutX="24.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
